@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Code Suit">
+	<listeners>
+		<listener class-name="com.testng.tests.MyCodeTests"/>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+	</listeners>
+	<test name="test add">
+		<parameter name="num1" value="3" />
+		<parameter name="num2" value="6" />
+		<classes>
+			<class name="com.testng.tests.MyCodeTests" />
+		</classes>
+	</test>
+</suite>
